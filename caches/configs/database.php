@@ -2,11 +2,11 @@
 
 return array (
 	'default' => array (
-		'hostname' => 'mysql.supaide.com',
+		'hostname' => '**',
 		'port' => 3306,
 		'database' => 'czshizhen',
-		'username' => 'spd',
-		'password' => 'spider56',
+		'username' => '***',
+		'password' => '***',
 		'tablepre' => 'czsz_',
 		'charset' => 'utf8',
 		'type' => 'mysql',
