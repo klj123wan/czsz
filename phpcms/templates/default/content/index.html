@@ -13,28 +13,7 @@
              {/pc}   
             </div>
         </div>
-        <div class="slide">
-            <div class="FocusPic">
-            {pc:content  action="position" posid="1"  order="listorder DESC" thumb="1" num="5"}
-            	<div class="content" id="main-slide">
-                    <div class="changeDiv">  
-                    {loop $data $r}
-                        <a href="{$r['url']}" title="{str_cut($r['title'],30)}"><img src="{thumb($r['thumb'],310,260)}" alt="{$r['title']}" width="310" height="260" /></a>
-                    {/loop}
-                    </div>
-                </div>
-            {/pc}
-            </div>
-            <div class="bk10"></div>
-        	<div class="box extend">
-            	<div class="col-left">争议</div>
-                <div class="col-auto">
-				{pc:block pos="index_block_1"}{/pc}
-				</div>
-                <script language="javascript" src="{APP_PATH}caches/poster_js/10.js"></script>
-            </div>
-        </div>
-        <div class="bk10"></div>
+  <!--      <div class="bk10"></div>
         <div class="box">
         		<h5>图片新闻</h5>
           {pc:content  action="position" posid="12" thumb="1" order="listorder DESC" num="10"}
@@ -49,7 +28,7 @@
                 {/loop}
             </ul>
             {/pc}
-        </div>
+        </div>-->
         <div class="bk10"></div>
         {loop subcat(0,0,0,$siteid) $r}
         {php $num++}
@@ -92,7 +71,7 @@
             </div>
         </div>
         <div class="bk10"></div>
-        <div class="box">
+  <!--      <div class="box">
         	<h5 class="title-2">专题<a href="{APP_PATH}index.php?m=special&c=index&a=special&siteid={$siteid}" class="more">更多>></a></h5>
             <div class="content special">
             {pc:special  action="lists" siteid="$siteid" elite="1" listorder="3" num="2"}
@@ -137,7 +116,7 @@
             <h5 class="title-2">调查问卷<a href="{APP_PATH}index.php?m=vote&c=index&siteid={$siteid}" class="more">更多>></a></h5>
  
 <script language="javascript" src="{APP_PATH}index.php?m=vote&c=index&a=show&action=js&subjectid=1&type=3"></script>
-        </div>
+        </div>-->
     </div>
     <div class="bk10"></div>
 	
