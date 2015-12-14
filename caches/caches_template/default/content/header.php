@@ -35,7 +35,7 @@ $(function(){
 </div>
 <div class="header">
 	<div class="logo"><a href="<?php echo siteurl($siteid);?>/"><img src="<?php echo IMG_PATH;?>v9/logo1.png" /></a></div>
-    <div class="tell">订购热线：<span class="org">18618303816</span></div>
+    <div class="tell">订购热线：<span class="org">13403277876 / 15831774142</span></div>
 <!--
     <div class="search">
     	<div class="tab" id="search">
