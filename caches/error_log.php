@@ -2863,3 +2863,5 @@
 <?php exit;?>12-14 14:40:01 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms/libs/classes/mysql.class.php | 56
 <?php exit;?>12-14 14:41:07 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms/libs/classes/mysql.class.php | 56
 <?php exit;?>12-14 14:41:07 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms/libs/classes/mysql.class.php | 56
+<?php exit;?>12-14 14:43:41 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms/libs/classes/mysql.class.php | 56
+<?php exit;?>12-14 14:43:41 | 8192 | mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead | phpcms/libs/classes/mysql.class.php | 56
