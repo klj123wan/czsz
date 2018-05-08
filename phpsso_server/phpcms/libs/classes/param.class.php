@@ -105,7 +105,8 @@ class param {
 	 */
 	public static function get_cookie($var, $default = '') {
 		$var = pc_base::load_config('system','cookie_pre').$var;
-		return isset($_COOKIE[$var]) ? sys_auth($_COOKIE[$var], 'DECODE') : $default;
+		//return isset($_COOKIE[$var]) ? sys_auth($_COOKIE[$var], 'DECODE') : $default;
+        return isset($_COOKIE[$var]) ? addslashes(sys_auth($_COOKIE[$var],'DECODE')) : $default;
 	}
 
 	/**

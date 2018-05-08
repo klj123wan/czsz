@@ -13,7 +13,9 @@ class respond {
 	 */
 	public function respond_get() {
 		if ($_GET['code']){
-			$payment = $this->get_by_code($_GET['code']);
+		//	$payment = $this->get_by_code($_GET['code']);
+            $code = mysql_real_escape_string($_GET['code']);//修改地方 
+            $payment = $this->get_by_code($code);//修改地方 
 			if(!$payment) showmessage(L('payment_failed'));
 			$cfg = unserialize_config($payment['config']);
 			$pay_name = ucwords($payment['pay_code']);

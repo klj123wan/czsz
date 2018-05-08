@@ -115,7 +115,7 @@
 		
 		if(!isset($arr['uid'])) exit('0');
 					
-		$phpssouid = $arr['uid'];
+        $phpssouid = intval($arr['uid']);
 		$userinfo = $db->get_one(array('phpssouid'=>$phpssouid));
 				
 		if (!$userinfo) {

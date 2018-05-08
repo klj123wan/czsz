@@ -29,17 +29,15 @@ class content_output {
 		}
 		return $value;
 	}
-	function _base64_encode($t,$str) {
-		return $t."\"".base64_encode($str)."\"";
+	function _base64_encode($matches) {
+		return $matches[1]."\"".base64_encode($matches[2])."\"";
 	}
-	function _base64_decode($t,$str) {
-		return $t."\"".base64_decode($str)."\"";
+	function _base64_decode($matches) {
+		return $matches[1]."\"".base64_decode($matches[2])."\"";
 	}
 	function _keylinks($txt, $replacenum = '',$link_mode = 1) {
-		$search = "/(alt\s*=\s*|title\s*=\s*)[\"|\'](.+?)[\"|\']/ise";
-		$replace = "\$this->_base64_encode('\\1','\\2')";
-		$replace1 = "\$this->_base64_decode('\\1','\\2')";
-		$txt = preg_replace($search, $replace, $txt);
+		$search = "/(alt\s*=\s*|title\s*=\s*)[\"|\'](.+?)[\"|\']/is";
+		$txt = preg_replace_callback($search, array($this, '_base64_encode'), $txt);
 		$keywords = $this->data['keywords'];
 		if($keywords) $keywords = strpos(',',$keywords) === false ? explode(' ',$keywords) : explode(',',$keywords);
 		if($link_mode && !empty($keywords)) {
@@ -68,7 +66,7 @@ class content_output {
 				$txt = str_replace($word2, $replacement, $txt);
 			}
 		}
-		$txt = preg_replace($search, $replace1, $txt);
+		$txt = preg_replace_callback($search, array($this, '_base64_decode'), $txt);
 		return $txt;
 	}
 	function title($field, $value) {
@@ -286,6 +284,7 @@ class content_output {
 			mapObj.enableDragging();
 			mapObj.enableScrollWheelZoom();
 			mapObj.enableDoubleClickZoom();
+			mapObj.enableKeyboard();//启用键盘上下左右键移动地图
 			mapObj.centerAndZoom(new BMap.Point(lngX,latY),zoom);
 			drawPoints();
 			';

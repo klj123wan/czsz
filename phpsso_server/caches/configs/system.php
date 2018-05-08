@@ -26,8 +26,7 @@ return array(
 'admin_log' => 0, //是否记录后台操作日志
 'errorlog' => 0, //是否保存错误日志
 'gzip' => 1, //是否Gzip压缩后输出
-'auth_key' => 'UucEEaNMgs7SNei5AI1F', // //Cookie密钥
-'lang' => 'zh-cn',  //网站语言包
+'auth_key' => 'UucEEaNsjflNLALJDFIWNjkdsljh102183dsjfalMgs7SNei5AI1F', // //Cookie密钥 'lang' => 'zh-cn',  //网站语言包
 'admin_founders' => '1', //网站创始人ID，多个ID逗号分隔
 'execution_sql' => 0, //EXECUTION_SQL
 //UCenter配置开始

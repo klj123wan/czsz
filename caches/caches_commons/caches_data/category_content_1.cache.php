@@ -60,7 +60,7 @@ return array (
     'parentdir' => '',
     'catdir' => 'gongsi',
     'url' => 'http://www.czshizhen.com/index.php?m=content&c=index&a=lists&catid=6',
-    'items' => '10',
+    'items' => '16777212',
     'hits' => '0',
     'setting' => 'array (
   \'workflowid\' => \'\',
@@ -197,7 +197,7 @@ return array (
     'parentdir' => '',
     'catdir' => 'hangye',
     'url' => 'http://www.czshizhen.com/index.php?m=content&c=index&a=lists&catid=9',
-    'items' => '1',
+    'items' => '16777207',
     'hits' => '0',
     'setting' => 'array (
   \'workflowid\' => \'\',
@@ -248,7 +248,7 @@ return array (
     'parentdir' => '',
     'catdir' => 'collaboration',
     'url' => 'http://www.czshizhen.com/index.php?m=content&c=index&a=lists&catid=10',
-    'items' => '0',
+    'items' => '16777207',
     'hits' => '0',
     'setting' => 'array (
   \'workflowid\' => \'\',
@@ -299,7 +299,7 @@ return array (
     'parentdir' => '',
     'catdir' => 'cpzs',
     'url' => 'http://www.czshizhen.com/index.php?m=content&c=index&a=lists&catid=12',
-    'items' => '2',
+    'items' => '16777213',
     'hits' => '0',
     'setting' => 'array (
   \'workflowid\' => \'\',

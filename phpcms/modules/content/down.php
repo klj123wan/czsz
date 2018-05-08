@@ -15,6 +15,7 @@ class down {
 		if(empty($a_k)) showmessage(L('illegal_parameters'));
 		unset($i,$m,$f);
 		parse_str($a_k);
+        $a_k = safe_replace($a_k); 
 		if(isset($i)) $i = $id = intval($i);
 		if(!isset($m)) showmessage(L('illegal_parameters'));
 		if(!isset($modelid)||!isset($catid)) showmessage(L('illegal_parameters'));
@@ -87,6 +88,7 @@ class down {
 		if(empty($a_k)) showmessage(L('illegal_parameters'));
 		unset($i,$m,$f,$t,$ip);
 		parse_str($a_k);		
+        $a_k = safe_replace($a_k);
 		if(isset($i)) $downid = intval($i);
 		if(!isset($m)) showmessage(L('illegal_parameters'));
 		if(!isset($modelid)) showmessage(L('illegal_parameters'));
@@ -118,6 +120,7 @@ class down {
 				}
 				$ext = fileext($filename);
 				$filename = date('Ymd_his').random(3).'.'.$ext;
+                $fileurl = str_replace(array('<','>'), '',$fileurl); 
 				file_down($fileurl, $filename);
 			}
 		}
